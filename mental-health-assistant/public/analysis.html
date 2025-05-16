@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Analysis - Mental Health Assistant</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health Assistant</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login/Sign-Up</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="analysis.html">Real-Time Analysis</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="contact.html">Contact/Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="video-analysis">
+            <h2>Real-Time Video Analysis</h2>
+            
+            <!-- Change from <video> to <img> since Flask streams images -->
+            <img id="video-feed" width="640" height="480" alt="Video Feed Not Available">
+            
+            <button id="analyze-button">Start Real-Time Analysis</button>
+            
+            <p id="analysis-result">Click "Start Real-Time Analysis" to detect emotions.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mental Health Assistant</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
